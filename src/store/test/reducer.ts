@@ -3,7 +3,7 @@ import {ActionTypes} from "@/store/test/action";
 import IState from "@/store/test/IState";
 
 
-function reducer(state = State, action: ActionTypes) : IState {
+function Reducer(state = State, action: ActionTypes) : IState {
     switch (action.type) {
         case '': {
             return {
@@ -17,4 +17,4 @@ function reducer(state = State, action: ActionTypes) : IState {
     }
 }
 
-export default pageReducer;
+export default Reducer;
